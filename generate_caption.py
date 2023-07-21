@@ -12,7 +12,7 @@ def generate_caption(image_path):
     # loading the pretrained model weights
     model = load_model('path/to/your/model/')
     # generating the caption by importing the function
-    evaluate(args)
+    evaluate(args,model)
 
 if __name__ == "__main__":
     generate_caption(args.path)
